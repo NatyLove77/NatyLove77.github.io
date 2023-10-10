@@ -427,6 +427,54 @@
                 
                     <div class="planet-container">
                         <div class="planet">
+                            <img src="imagenesplanet/solll.png" alt="Mercurio">
+                            <h2 class="nombreplaneta">Sol</h2>
+                            <p class="TITULOPLANETA">El Sol es una estrella que se encuentra ubicada en el centro del sistema solar y conforma la mayor fuente de radiación electromagnética de dicho sistema.</p>
+                        </div>
+                    </div>
+                </body>
+               
+            </div>
+        </div>
+        <div class="planet-container">
+            <div class="planet">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Planetas del Sistema Solar</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 20px;
+                        }
+                        .planet-container {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                        }
+                        .planet {
+                            width: 200px;
+                            margin: 10px;
+                            padding: 15px;
+                            border: 1px solid #ddd;
+                            border-radius: 5px;
+                            text-align: center;
+                        }
+                        .planet img {
+                            width: 100px;
+                            height: 100px;
+                            margin-bottom: 10px;
+                            transition: transform 0.3s ease;
+                        }
+                        .planet:hover img {
+                            transform: rotate(360deg);
+                        }
+                    </style>
+                </head>
+                <body>
+                
+                    <div class="planet-container">
+                        <div class="planet">
                             <img src="imagenesplanet/neptune-6153867_1280.webp" alt="Mercurio">
                             <h2 class="nombreplaneta">Neptuno</h2>
                             <p class="TITULOPLANETA">El último planeta del sistema solar, conocido por su color azul intenso.</p>
