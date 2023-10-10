@@ -90,3 +90,139 @@ h2.nombreplaneta{
     font-size: 15px 15px;
 }
 
+h1.noti{
+    background-color: rgba(96, 143, 143, 0.644) ;
+    font-size: 15px 15px;
+    margin-left: 600px;
+    margin-right: 550px;
+}
+
+iframe.videooo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 600px; /* Ajusta el ancho del video según tus necesidades */
+    height: 400px; /* Ajusta la altura del video según tus necesidades */
+    margin-left: 380px;
+}
+
+h1.proyect{
+    background-color: rgba(96, 143, 143, 0.644) ;
+    font-size: 15px 15px;
+    margin-left: 600px;
+    margin-right: 530px;
+
+}
+
+a.pdfd{
+    background-color: rgba(74, 151, 151, 0) ;
+    font-size: 35px; 
+    margin-left: 650px;
+    margin-right: 600px;
+    width: 600px;
+    height: 400px;
+    
+
+}
+
+h1.juegos{
+    background-color: rgba(96, 143, 143, 0.644) ;
+    font-size: 15px 15px;
+    margin-left: 620px;
+    margin-right: 560px;
+    
+    
+
+
+}
+
+
+a.juegos1{
+    background-color: rgba(74, 151, 151, 0) ;
+    font-size: 35px; 
+    margin-left: 650px;
+    margin-right: 600px;
+    width: 600px;
+    height: 400px;
+    margin-top: 200px;
+    margin-bottom: 0%;
+    display: flex;
+    
+   
+
+}
+.fa-solid.fa-ghost.fa-2xl {
+    margin: 0 0 0 0 ;
+    background-color: rgba(22, 209, 209, 0) ;
+    
+}
+
+
+
+
+
+.icon-container {
+    
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    animation: moveIcon 4s linear infinite; /* La animación dura 4 segundos y es infinita */
+}
+
+@keyframes moveIcon {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 50px); /* El icono se moverá hasta el extremo derecho de su contenedor */
+    }
+}
+
+
+h1.INVESTIGANDO{
+    background-color: rgba(96, 143, 143, 0.644) ;
+    font-size: 15px 15px;
+    margin-left: 600px;
+    margin-right: 450px;
+
+}
+
+img.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 600px; /* Ajusta el ancho del video según tus necesidades */
+    height: 400px; /* Ajusta la altura del video según tus necesidades */
+    margin-left: 380px;
+}
+
+h1.DIBUJOS{
+    background-color: rgba(96, 143, 143, 0.644) ;
+    font-size: 15px 15px;
+    margin-left: 600px;
+    margin-right: 550px;
+
+}
+img.Dinutos {
+    width: 400px; /* Ancho en píxeles para 10 cm al cuadrado */
+    height: 400px; /* Altura en píxeles para 10 cm al cuadrado */
+    margin-left: 180px;
+    
+}
+
+h1.vid{
+    background-color: rgba(96, 143, 143, 0.644) ;
+    font-size: 15px 15px;
+    margin-left: 620px;
+    margin-right: 560px;
+}
